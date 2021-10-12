@@ -1,6 +1,7 @@
 package algo.Sorts;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
@@ -72,8 +73,14 @@ public class SortTester {
         startTime = System.nanoTime();
         //MIN PRIORITY QUEUE O(NlogN); O(N) EXTRA SPACE
         PriorityQueue<Integer> pq=new PriorityQueue<>();
-        for (int j : arr.clone())
+        for (int j : arr)
             pq.add(j);
+        int i=0;
+        //INSERTING INTO ARRAY
+        while (!pq.isEmpty()) {
+            arr[i] = pq.poll();
+            i++;
+        }
         endTime=System.nanoTime();
         totalTime = endTime - startTime;
         System.out.println(totalTime+" nanoseconds taken by HEAP SORT");
