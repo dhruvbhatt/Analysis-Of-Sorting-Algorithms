@@ -14,7 +14,7 @@ public class randomArrGenerator {
     /**Randomly generates an array for Testing purposes*/
     public int[]generateArray() {
         int[] arr = new int[size];
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < size; i++) {
             //Math.random generates a number between 0=< and <1. Add min to ensure min is lowest possible value
             arr[i] = (int) (Math.random() * (max - min + 1) + min);
         }
