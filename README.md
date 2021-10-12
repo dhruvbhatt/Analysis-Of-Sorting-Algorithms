@@ -1,5 +1,5 @@
 # Analysis-Of-Sorting-Algorithms
-We analyze the runtime for various sorting algorithms for a randomly generated array using Java System time. Algorithms which were included in the testing were Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, Merge Sort, Counting Sort, Radix Sort(with a custom counting sort as sub routine), Java collections Dual Pivot Quick Sort and Heap Sort using Min Priority Queue.
+Analysed the runtime for various sorting algorithms for a randomly generated array using Java System time. Algorithms which were included in the testing were Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, Merge Sort, Counting Sort, Radix Sort(with a custom counting sort as sub routine), Java collections Dual Pivot Quick Sort and Heap Sort using Min Priority Queue.
 
 #### Runtime Of The Algorithms
 *First Parameter is the maximum range, second is the minimum range and third is length of the array.* 
